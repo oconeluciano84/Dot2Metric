@@ -256,7 +256,7 @@ public class DotGrammar implements DotGrammarConstants {
         jj_consume_token(LABEL);
         jj_consume_token(UGUALE);
         t = jj_consume_token(ID);
-                                                           tab_simboli.addSimbolo(id.image, t.image);
+        tab_simboli.addSimbolo(id.image, t.image);
         label_8:
         while (true) {
           switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
