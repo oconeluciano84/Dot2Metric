@@ -21,7 +21,8 @@ public class DotGrammar implements DotGrammarConstants {
     jj_consume_token(0);
   }
 
-  final public String getNomeMetodo() throws ParseException {
+  @SuppressWarnings("unused")
+final public String getNomeMetodo() throws ParseException {
   Token t;
   String nome_metodo;
     switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
