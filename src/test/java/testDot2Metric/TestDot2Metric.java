@@ -33,6 +33,10 @@ public class TestDot2Metric extends TestCase {
 	public void testSetConfig2() {
 		System.out.println("Test method --> setConfig2()");
 		
+	}@Test
+	public void testSetConfig3() {
+		System.out.println("Test method --> setConfig3()");
+		
 	}
 	@Test(expected = Exception.class)
 	public  void testAnalisi_start() throws FileNotFoundException {
