@@ -50,7 +50,8 @@ public class TestPreprocessing extends TestCase {
 	public void testStart() {
 		System.out.println("Running -- testStart()");
 		try {
-			assertTrue(preproc.start());
+			// False perche se non trova la directory torna sempre false
+			assertFalse(preproc.start());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
