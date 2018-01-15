@@ -1,5 +1,7 @@
 package testDot2Metric;
 
+import java.io.IOException;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -41,12 +43,18 @@ public class TestPreprocessing extends TestCase {
 		preproc = new Preprocessing(path_input, path_output);
 		assertNotNull(preproc);
 	}
-/*
+
 	@Test
 	public void testStart() {
-		fail("Not yet implemented");
+		System.out.println("Running -- testStart()");
+		try {
+			assertTrue(preproc.start());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-
+	/*
 	@Test
 	public void testFormattingLine() {
 		fail("Not yet implemented");
