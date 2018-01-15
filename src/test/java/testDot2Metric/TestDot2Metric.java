@@ -33,9 +33,15 @@ public class TestDot2Metric extends TestCase {
 	public void testSetConfig2() {
 		System.out.println("Test method --> setConfig2()");
 		
-	}@Test
+	}
+	@Test
 	public void testSetConfig3() {
 		System.out.println("Test method --> setConfig3()");
+		
+	}
+	@Test
+	public void testSetConfig4() {
+		System.out.println("Test method --> setConfig4()");
 		
 	}
 	@Test(expected = Exception.class)
