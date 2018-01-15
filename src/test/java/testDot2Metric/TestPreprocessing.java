@@ -31,6 +31,8 @@ public class TestPreprocessing extends TestCase {
 	public void setUp() throws Exception {
 		path_input="input";
 		path_output="output";
+		preproc = new Preprocessing(path_input, path_output);
+		
 	}
 
 	@After
@@ -40,7 +42,7 @@ public class TestPreprocessing extends TestCase {
 	@Test
 	public void testPreprocessing() {
 		System.out.println("Running -- testPreprocessing()");
-		preproc = new Preprocessing(path_input, path_output);
+		//preproc = new Preprocessing(path_input, path_output);
 		assertNotNull(preproc);
 	}
 
