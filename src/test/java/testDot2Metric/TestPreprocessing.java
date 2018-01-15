@@ -41,7 +41,7 @@ public class TestPreprocessing extends TestCase {
 		preproc = new Preprocessing(path_input, path_output);
 		assertNotNull(preproc);
 	}
-
+/*
 	@Test
 	public void testStart() {
 		fail("Not yet implemented");
@@ -106,5 +106,5 @@ public class TestPreprocessing extends TestCase {
 	public void testSetExecution_time() {
 		fail("Not yet implemented");
 	}
-
+			*/
 }
