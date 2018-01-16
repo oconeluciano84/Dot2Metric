@@ -1,5 +1,6 @@
 package testDot2Metric;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.junit.After;
@@ -57,12 +58,21 @@ public class TestPreprocessing extends TestCase {
 			e.printStackTrace();
 		}
 	}
-	/*
-	@Test
+	
+	@Test(expected = Exception.class)
 	public void testFormattingLine() {
-		fail("Not yet implemented");
+		System.out.println("Running -- testFormattingLine()");
+		File input = new File(path_input+"/pre.dot");
+		File output = new File(path_output+"/trees.metric");
+		
+		try {
+			preproc.formattingLine(input, output);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-
+/*
 	@Test
 	public void testDeleteDirectory() {
 		fail("Not yet implemented");
