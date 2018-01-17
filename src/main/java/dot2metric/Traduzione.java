@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import costanti.Costanti;
 import grammatica.DotGrammar;
-//import grammatica.DotGrammar2;
 import grammatica.ParseException;
 import utility.ObjMetodo;
 

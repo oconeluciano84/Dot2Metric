@@ -2,6 +2,7 @@
 package grammatica;
 //import utility.*;
 
+
 /** Token Manager. */
 public class DotGrammar2TokenManager implements DotGrammar2Constants
 {

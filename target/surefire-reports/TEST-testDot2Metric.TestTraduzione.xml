@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="testDot2Metric.TestDot2Metric" time="0.007" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="testDot2Metric.TestTraduzione" time="0.06" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
@@ -62,12 +62,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testLoadText" time="0.006"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testMain" time="0"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testLoadConfig" time="0"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testSetConfig" time="0"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testSetConfig2" time="0"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testSetConfig3" time="0"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testSetConfig4" time="0.001"/>
-  <testcase classname="testDot2Metric.TestDot2Metric" name="testAnalisi_start" time="0"/>
+  <testcase classname="testDot2Metric.TestTraduzione" name="testTraduzione" time="0.012"/>
+  <testcase classname="testDot2Metric.TestTraduzione" name="testStart" time="0.048"/>
 </testsuite>
