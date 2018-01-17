@@ -14,23 +14,26 @@ import org.junit.Test;
 
 import dot2metric.Analisi;
 import dot2metric.Preprocessing;
+import dot2metric.Reporting;
 import dot2metric.Traduzione;
 import utility.ObjMetodo;
 
-public class TestAnalisi {
+public class TestReporting {
 	private static String path_input="input";
 	private static String path_output="output";
 	private static Preprocessing preproc;
 	private static Traduzione trad;
-	private static	Analisi a; 
+	private static	Analisi a;
 	private static HashMap<String, ArrayList<ObjMetodo>> mappa;
-	
+	private static Reporting rep;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		preproc = new Preprocessing(path_input, path_output);
 		trad = new Traduzione(path_output);
 		mappa= new HashMap<String, ArrayList<ObjMetodo>>();
+		a= new Analisi(path_output,mappa);
+		
 	}
 
 	@AfterClass
@@ -41,7 +44,9 @@ public class TestAnalisi {
 	public void setUp() throws Exception {
 		preproc.start();
 		trad.start();
-		a= new Analisi(path_output,mappa);
+		a.start();
+		rep = new Reporting(path_output, preproc, trad, a);
+		
 	}
 
 	@After
@@ -49,18 +54,16 @@ public class TestAnalisi {
 	}
 
 	@Test
-	public void testAnalisi() {
-		System.out.println("Running -- testAnalisi()");
-		assertNotNull(a);
-	}      
-	
+	public void testReporting() {
+		System.out.println("Running -- testReporting()");
+		assertNotNull(rep);
+	}
+
 	@Test
 	public void testStart() {
 		System.out.println("Running -- testStart()");
 		try {
-			//a=new Analisi(path_output, mappa);
-			a.start();
-
+			rep.start();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -88,83 +91,43 @@ public class TestAnalisi {
 	}
 
 	@Test
-	public void testGetMappa() {
+	public void testGetPreprocessing() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testSetMappa() {
+	public void testSetPreprocessing() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testGetTotale_chiamate_dirette() {
+	public void testGetTraduzione() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testSetTotale_chiamate_dirette() {
+	public void testSetTraduzione() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testGetTotale_chiamate_indirette() {
+	public void testGetAnalisi() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testSetTotale_chiamate_indirette() {
+	public void testSetAnalisi() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testGetTotale_metodi_polimorfici() {
+	public void testGetFile_report() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testSetTotale_metodi_polimorfici() {
+	public void testSetFile_report() {
 		fail("Not yet implemented");
 	}
-
-	@Test
-	public void testGetTotale_metodi_indipendenti() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetTotale_metodi_indipendenti() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetTotale_metodi_dipendenti() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetTotale_metodi_dipendenti() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetFile_output() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetFile_output() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetFile_trees() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetFile_trees() {
-		fail("Not yet implemented");
-	}
-		*/
+	*/
 }
