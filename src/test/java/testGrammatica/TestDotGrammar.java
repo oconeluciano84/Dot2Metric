@@ -61,7 +61,7 @@ public class TestDotGrammar {
 		
 		assertNotNull(objM);
 	}
-/*	
+	
 	@SuppressWarnings("unlikely-arg-type")
 	@Test
 	public void testInit() {

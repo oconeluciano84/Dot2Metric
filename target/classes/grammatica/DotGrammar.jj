@@ -54,6 +54,9 @@ TOKEN : /*PAROLE_CHIAVI*/
 | < SUBGRAPH : ("s"|"S")("u"|"U")("b"|"B")("g"|"G")("r"|"R")("a"|"A")("p"|"P")("h"|"H") >
 | < STRICT : ("s"|"S")("t"|"T")("r"|"R")("i"|"I")("c"|"C")("t"|"T") >
 | < RANKDIR : ("r"|"R")("a"|"A")("n"|"N")("k"|"K")("d"|"D")("i"|"I")("r"|"R") >
+| < GRAFO : ("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") >
+| < SOTTOGRAFO : ("s"|"S")("o"|"O")("t"|"T")("t"|"T")("o"|"O")("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") >
+| < DIGRAFO : ("d"|"D")("i"|"I")("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") >
 }
 
 TOKEN : /*ATTRIBUTI*/
@@ -115,7 +118,7 @@ String getNomeMetodo():
   String nome_metodo;
   }
 {
-	( <DIGRAPH> | <DIGRAPH_> | <GRAPH> | <SUBGRAPH> ) t =  <ID> {nome_metodo= t.image;}
+	( <DIGRAPH> | <DIGRAPH_> | <GRAPH> | <SUBGRAPH> | <GRAFO> | <SOTTOGRAFO>| <DIGRAFO> ) t =  <ID> {nome_metodo= t.image;}
 
 	< PARENTESI_GRAFFA_APERTA > skip_intestazione() < PARENTESI_GRAFFA_CHIUSA > 
 

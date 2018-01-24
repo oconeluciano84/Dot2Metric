@@ -51,49 +51,55 @@ public interface DotGrammarConstants {
   /** RegularExpression Id. */
   int RANKDIR = 24;
   /** RegularExpression Id. */
-  int STYLE = 25;
+  int GRAFO = 25;
   /** RegularExpression Id. */
-  int COLOR = 26;
+  int SOTTOGRAFO = 26;
   /** RegularExpression Id. */
-  int FONTSIZE = 27;
+  int DIGRAFO = 27;
   /** RegularExpression Id. */
-  int FILLCOLOR = 28;
+  int STYLE = 28;
   /** RegularExpression Id. */
-  int HEIGHT = 29;
+  int COLOR = 29;
   /** RegularExpression Id. */
-  int WIDTH = 30;
+  int FONTSIZE = 30;
   /** RegularExpression Id. */
-  int URL = 31;
+  int FILLCOLOR = 31;
   /** RegularExpression Id. */
-  int LABEL = 32;
+  int HEIGHT = 32;
   /** RegularExpression Id. */
-  int SHAPE = 33;
+  int WIDTH = 33;
   /** RegularExpression Id. */
-  int FONTNAME = 34;
+  int URL = 34;
   /** RegularExpression Id. */
-  int FONTCOLOR = 35;
+  int LABEL = 35;
   /** RegularExpression Id. */
-  int LABELFONTSIZE = 36;
+  int SHAPE = 36;
   /** RegularExpression Id. */
-  int LABELFONTNAME = 37;
+  int FONTNAME = 37;
   /** RegularExpression Id. */
-  int BGCOLOR = 38;
+  int FONTCOLOR = 38;
   /** RegularExpression Id. */
-  int PENCOLOR = 39;
+  int LABELFONTSIZE = 39;
   /** RegularExpression Id. */
-  int DIR = 40;
+  int LABELFONTNAME = 40;
   /** RegularExpression Id. */
-  int TOOLTIP = 41;
+  int BGCOLOR = 41;
   /** RegularExpression Id. */
-  int DIGITS = 42;
+  int PENCOLOR = 42;
   /** RegularExpression Id. */
-  int DIGIT = 43;
+  int DIR = 43;
   /** RegularExpression Id. */
-  int LETTER = 44;
+  int TOOLTIP = 44;
   /** RegularExpression Id. */
-  int ESCAPED_QUOTES = 45;
+  int DIGITS = 45;
   /** RegularExpression Id. */
-  int ID = 46;
+  int DIGIT = 46;
+  /** RegularExpression Id. */
+  int LETTER = 47;
+  /** RegularExpression Id. */
+  int ESCAPED_QUOTES = 48;
+  /** RegularExpression Id. */
+  int ID = 49;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -125,6 +131,9 @@ public interface DotGrammarConstants {
     "<SUBGRAPH>",
     "<STRICT>",
     "<RANKDIR>",
+    "<GRAFO>",
+    "<SOTTOGRAFO>",
+    "<DIGRAFO>",
     "\"style\"",
     "\"color\"",
     "\"fontsize\"",
