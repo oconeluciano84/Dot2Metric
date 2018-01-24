@@ -37,13 +37,22 @@ public class DotGrammar implements DotGrammarConstants {
     case SUBGRAPH:
       jj_consume_token(SUBGRAPH);
       break;
+    case GRAFO:
+      jj_consume_token(GRAFO);
+      break;
+    case SOTTOGRAFO:
+      jj_consume_token(SOTTOGRAFO);
+      break;
+    case DIGRAFO:
+      jj_consume_token(DIGRAFO);
+      break;
     default:
       jj_la1[0] = jj_gen;
       jj_consume_token(-1);
       throw new ParseException();
     }
     t = jj_consume_token(ID);
-                                                                     nome_metodo= t.image;
+                                                                                                         nome_metodo= t.image;
     jj_consume_token(PARENTESI_GRAFFA_APERTA);
     skip_intestazione();
     jj_consume_token(PARENTESI_GRAFFA_CHIUSA);
@@ -367,10 +376,10 @@ public class DotGrammar implements DotGrammarConstants {
       jj_la1_init_1();
    }
    private static void jj_la1_init_0() {
-      jj_la1_0 = new int[] {0x780000,0x60000,0x60000,0x8000000,0x8000000,0x100,0x1000000,0x0,0x8800,0xf6000000,0xf6000000,0x100,0x100,0xf6000000,0xe000000,0xe000000,0x100,};
+      jj_la1_0 = new int[] {0xe780000,0x60000,0x60000,0x80000000,0x80000000,0x100,0x1000000,0x0,0x8800,0x60000000,0x60000000,0x100,0x100,0x60000000,0xe0000000,0xe0000000,0x100,};
    }
    private static void jj_la1_init_1() {
-      jj_la1_1 = new int[] {0x0,0x0,0x0,0x36,0x36,0x0,0x0,0x4000,0x0,0x309,0x308,0x0,0x0,0x309,0x105,0x105,0x0,};
+      jj_la1_1 = new int[] {0x0,0x0,0x0,0x360,0x360,0x0,0x0,0x40000,0x0,0x309f,0x308f,0x0,0x0,0x309f,0x1050,0x1050,0x0,};
    }
 
   /** Constructor with InputStream. */
@@ -487,7 +496,7 @@ public class DotGrammar implements DotGrammarConstants {
   /** Generate ParseException. */
   public ParseException generateParseException() {
     jj_expentries.clear();
-    boolean[] la1tokens = new boolean[47];
+    boolean[] la1tokens = new boolean[51];
     if (jj_kind >= 0) {
       la1tokens[jj_kind] = true;
       jj_kind = -1;
@@ -504,7 +513,7 @@ public class DotGrammar implements DotGrammarConstants {
         }
       }
     }
-    for (int i = 0; i < 47; i++) {
+    for (int i = 0; i < 51; i++) {
       if (la1tokens[i]) {
         jj_expentry = new int[1];
         jj_expentry[0] = i;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="testGrammatica.TestDotGrammar" time="0.005" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="testGrammatica.TestDotGrammar" time="0.018" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/lux/Documents/SW-NEW/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf681104866441144456.tmp"/>
+    <property name="classworlds.conf" value="/Users/lux/Documents/SW-NEW/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5948307551547089161.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/lux/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,63 +62,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testGrammatica.TestDotGrammar" name="testStart" time="0.005">
-    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
-	at org.junit.Assert.fail(Assert.java:91)
-	at org.junit.Assert.assertTrue(Assert.java:43)
-	at org.junit.Assert.assertNotNull(Assert.java:524)
-	at org.junit.Assert.assertNotNull(Assert.java:535)
-	at testGrammatica.TestDotGrammar.testStart(TestDotGrammar.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:24)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
-	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)
-	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</failure>
-    <system-out>Running -- TestDotGrammar.testStart()
-</system-out>
-    <system-err>grammatica.ParseException: Encountered &quot;&lt;EOF&gt;&quot; at line 0, column 0.
-Was expecting one of:
-    &lt;DIGRAPH&gt; ...
-    &lt;DIGRAPH_&gt; ...
-    &lt;GRAPH&gt; ...
-    &lt;SUBGRAPH&gt; ...
-    	at grammatica.DotGrammar.generateParseException(DotGrammar.java:518)	at grammatica.DotGrammar.jj_consume_token(DotGrammar.java:453)	at grammatica.DotGrammar.getNomeMetodo(DotGrammar.java:42)	at grammatica.DotGrammar.init(DotGrammar.java:20)	at grammatica.DotGrammar.start(DotGrammar.java:12)	at testGrammatica.TestDotGrammar.testStart(TestDotGrammar.java:53)	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)	at java.lang.reflect.Method.invoke(Method.java:498)	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)	at org.junit.runners.Suite.runChild(Suite.java:128)	at org.junit.runners.Suite.runChild(Suite.java:24)	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)	at java.lang.reflect.Method.invoke(Method.java:498)	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)</system-err>
-  </testcase>
+  <testcase classname="testGrammatica.TestDotGrammar" name="testStart" time="0.018"/>
 </testsuite>

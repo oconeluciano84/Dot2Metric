@@ -51,49 +51,57 @@ public interface DotGrammarConstants {
   /** RegularExpression Id. */
   int RANKDIR = 24;
   /** RegularExpression Id. */
-  int STYLE = 25;
+  int GRAFO = 25;
   /** RegularExpression Id. */
-  int COLOR = 26;
+  int SOTTOGRAFO = 26;
   /** RegularExpression Id. */
-  int FONTSIZE = 27;
+  int DIGRAFO = 27;
   /** RegularExpression Id. */
-  int FILLCOLOR = 28;
+  int DIGRAFO_ = 28;
   /** RegularExpression Id. */
-  int HEIGHT = 29;
+  int STYLE = 29;
   /** RegularExpression Id. */
-  int WIDTH = 30;
+  int COLOR = 30;
   /** RegularExpression Id. */
-  int URL = 31;
+  int FONTSIZE = 31;
   /** RegularExpression Id. */
-  int LABEL = 32;
+  int FILLCOLOR = 32;
   /** RegularExpression Id. */
-  int SHAPE = 33;
+  int HEIGHT = 33;
   /** RegularExpression Id. */
-  int FONTNAME = 34;
+  int WIDTH = 34;
   /** RegularExpression Id. */
-  int FONTCOLOR = 35;
+  int URL = 35;
   /** RegularExpression Id. */
-  int LABELFONTSIZE = 36;
+  int LABEL = 36;
   /** RegularExpression Id. */
-  int LABELFONTNAME = 37;
+  int SHAPE = 37;
   /** RegularExpression Id. */
-  int BGCOLOR = 38;
+  int FONTNAME = 38;
   /** RegularExpression Id. */
-  int PENCOLOR = 39;
+  int FONTCOLOR = 39;
   /** RegularExpression Id. */
-  int DIR = 40;
+  int LABELFONTSIZE = 40;
   /** RegularExpression Id. */
-  int TOOLTIP = 41;
+  int LABELFONTNAME = 41;
   /** RegularExpression Id. */
-  int DIGITS = 42;
+  int BGCOLOR = 42;
   /** RegularExpression Id. */
-  int DIGIT = 43;
+  int PENCOLOR = 43;
   /** RegularExpression Id. */
-  int LETTER = 44;
+  int DIR = 44;
   /** RegularExpression Id. */
-  int ESCAPED_QUOTES = 45;
+  int TOOLTIP = 45;
   /** RegularExpression Id. */
-  int ID = 46;
+  int DIGITS = 46;
+  /** RegularExpression Id. */
+  int DIGIT = 47;
+  /** RegularExpression Id. */
+  int LETTER = 48;
+  /** RegularExpression Id. */
+  int ESCAPED_QUOTES = 49;
+  /** RegularExpression Id. */
+  int ID = 50;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -125,6 +133,10 @@ public interface DotGrammarConstants {
     "<SUBGRAPH>",
     "<STRICT>",
     "<RANKDIR>",
+    "<GRAFO>",
+    "<SOTTOGRAFO>",
+    "<DIGRAFO>",
+    "<DIGRAFO_>",
     "\"style\"",
     "\"color\"",
     "\"fontsize\"",
