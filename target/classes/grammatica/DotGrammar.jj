@@ -49,6 +49,7 @@ TOKEN : /*PAROLE_CHIAVI*/
 < NODE : ("n"|"N")("o"|"O")("d"|"D")("e"|"E") >
 | < EDGE : ("e"|"E")("d"|"D")("g"|"G")("e"|"E")>
 | < DIGRAPH : ("d"|"D")("i"|"I")("g"|"G")("r"|"R")("a"|"A")("p"|"P")("h"|"H") >
+| < DIGRAPH_ : ("d"|"D")("i"|"I")("g"|"G")("r"|"R")("a"|"A")("p"|"P")("h"|"H") ("_") >
 | < GRAPH : ("g"|"G")("r"|"R")("a"|"A")("p"|"P")("h"|"H") >
 | < SUBGRAPH : ("s"|"S")("u"|"U")("b"|"B")("g"|"G")("r"|"R")("a"|"A")("p"|"P")("h"|"H") >
 | < STRICT : ("s"|"S")("t"|"T")("r"|"R")("i"|"I")("c"|"C")("t"|"T") >
@@ -114,7 +115,7 @@ String getNomeMetodo():
   String nome_metodo;
   }
 {
-	( <DIGRAPH> | <GRAPH> | <SUBGRAPH> ) t =  <ID> {nome_metodo= t.image;}
+	( <DIGRAPH> | <DIGRAPH_> | <GRAPH> | <SUBGRAPH> ) t =  <ID> {nome_metodo= t.image;}
 
 	< PARENTESI_GRAFFA_APERTA > skip_intestazione() < PARENTESI_GRAFFA_CHIUSA > 
 

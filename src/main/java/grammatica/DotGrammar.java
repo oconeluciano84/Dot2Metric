@@ -21,13 +21,15 @@ public class DotGrammar implements DotGrammarConstants {
     jj_consume_token(0);
   }
 
-  @SuppressWarnings("unused")
-final public String getNomeMetodo() throws ParseException {
+  final public String getNomeMetodo() throws ParseException {
   Token t;
   String nome_metodo;
     switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
     case DIGRAPH:
       jj_consume_token(DIGRAPH);
+      break;
+    case DIGRAPH_:
+      jj_consume_token(DIGRAPH_);
       break;
     case GRAPH:
       jj_consume_token(GRAPH);
@@ -41,7 +43,7 @@ final public String getNomeMetodo() throws ParseException {
       throw new ParseException();
     }
     t = jj_consume_token(ID);
-                                                        nome_metodo= t.image;
+                                                                     nome_metodo= t.image;
     jj_consume_token(PARENTESI_GRAFFA_APERTA);
     skip_intestazione();
     jj_consume_token(PARENTESI_GRAFFA_CHIUSA);
@@ -257,7 +259,7 @@ final public String getNomeMetodo() throws ParseException {
         jj_consume_token(LABEL);
         jj_consume_token(UGUALE);
         t = jj_consume_token(ID);
-        tab_simboli.addSimbolo(id.image, t.image);
+                                                           tab_simboli.addSimbolo(id.image, t.image);
         label_8:
         while (true) {
           switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
@@ -365,10 +367,10 @@ final public String getNomeMetodo() throws ParseException {
       jj_la1_init_1();
    }
    private static void jj_la1_init_0() {
-      jj_la1_0 = new int[] {0x380000,0x60000,0x60000,0x4000000,0x4000000,0x100,0x800000,0x0,0x8800,0xfb000000,0x7b000000,0x100,0x100,0xfb000000,0x87000000,0x87000000,0x100,};
+      jj_la1_0 = new int[] {0x780000,0x60000,0x60000,0x8000000,0x8000000,0x100,0x1000000,0x0,0x8800,0xf6000000,0xf6000000,0x100,0x100,0xf6000000,0xe000000,0xe000000,0x100,};
    }
    private static void jj_la1_init_1() {
-      jj_la1_1 = new int[] {0x0,0x0,0x0,0x1b,0x1b,0x0,0x0,0x2000,0x0,0x184,0x184,0x0,0x0,0x184,0x82,0x82,0x0,};
+      jj_la1_1 = new int[] {0x0,0x0,0x0,0x36,0x36,0x0,0x0,0x4000,0x0,0x309,0x308,0x0,0x0,0x309,0x105,0x105,0x0,};
    }
 
   /** Constructor with InputStream. */
@@ -485,7 +487,7 @@ final public String getNomeMetodo() throws ParseException {
   /** Generate ParseException. */
   public ParseException generateParseException() {
     jj_expentries.clear();
-    boolean[] la1tokens = new boolean[46];
+    boolean[] la1tokens = new boolean[47];
     if (jj_kind >= 0) {
       la1tokens[jj_kind] = true;
       jj_kind = -1;
@@ -502,7 +504,7 @@ final public String getNomeMetodo() throws ParseException {
         }
       }
     }
-    for (int i = 0; i < 46; i++) {
+    for (int i = 0; i < 47; i++) {
       if (la1tokens[i]) {
         jj_expentry = new int[1];
         jj_expentry[0] = i;

@@ -23,5 +23,5 @@ Node9[label="Lock",height=0.2,width=0.4,color="grey75",fillcolor="white",style="
 Node10->Node5[dir="back",color="darkorchid3",fontsize="10",style="dashed",label="configFiles",fontname="Helvetica"];
 Node10[label="com.jaeksoft.searchlib.config.ConfigFiles",height=0.2,width=0.4,color="black",fillcolor="white",style="filled",URL="$classcom_1_1jaeksoft_1_1searchlib_1_1config_1_1_config_files.html"];
 Node11->Node3[dir="back",color="darkorchid3",fontsize="10",style="dashed",label="userProperties",fontname="Helvetica"];
-Node11[label="List\<com. jaeksoft.searchlib.analysis.ClassProperty\>",height=0.2,width=0.4,color="grey75",fillcolor="white",style="filled"];
+Node11[label="List\<com.jaeksoft.searchlib.analysis.ClassProperty\>",height=0.2,width=0.4,color="grey75",fillcolor="white",style="filled"];
 }

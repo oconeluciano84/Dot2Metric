@@ -2,6 +2,7 @@ package testDot2Metric;
 
 import static org.junit.Assert.*;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,7 +27,9 @@ public class TestReporting {
 	private static	Analisi a;
 	private static HashMap<String, ArrayList<ObjMetodo>> mappa;
 	private static Reporting rep;
-
+	private File f;
+	
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		preproc = new Preprocessing(path_input, path_output);
@@ -68,6 +71,8 @@ public class TestReporting {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		f = new File(rep.getPath_output()+"/report.metric");
+		assertTrue(f.exists());
 	}
 /*
 	@Test

@@ -2,6 +2,7 @@ package testDot2Metric;
 
 import static org.junit.Assert.*;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -65,6 +66,13 @@ public class TestAnalisi {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+//		File f = new File(path_output+"/"+Costanti.FILE_OUTPUT);
+		File file_global = a.getFile_output();
+		File file_trees = a.getFile_trees();
+		
+		assertTrue(file_global.exists());
+		assertTrue(file_trees.exists());
+		
 	}
 /*
 	@Test

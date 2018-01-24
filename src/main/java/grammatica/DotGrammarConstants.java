@@ -41,57 +41,59 @@ public interface DotGrammarConstants {
   /** RegularExpression Id. */
   int DIGRAPH = 19;
   /** RegularExpression Id. */
-  int GRAPH = 20;
+  int DIGRAPH_ = 20;
   /** RegularExpression Id. */
-  int SUBGRAPH = 21;
+  int GRAPH = 21;
   /** RegularExpression Id. */
-  int STRICT = 22;
+  int SUBGRAPH = 22;
   /** RegularExpression Id. */
-  int RANKDIR = 23;
+  int STRICT = 23;
   /** RegularExpression Id. */
-  int STYLE = 24;
+  int RANKDIR = 24;
   /** RegularExpression Id. */
-  int COLOR = 25;
+  int STYLE = 25;
   /** RegularExpression Id. */
-  int FONTSIZE = 26;
+  int COLOR = 26;
   /** RegularExpression Id. */
-  int FILLCOLOR = 27;
+  int FONTSIZE = 27;
   /** RegularExpression Id. */
-  int HEIGHT = 28;
+  int FILLCOLOR = 28;
   /** RegularExpression Id. */
-  int WIDTH = 29;
+  int HEIGHT = 29;
   /** RegularExpression Id. */
-  int URL = 30;
+  int WIDTH = 30;
   /** RegularExpression Id. */
-  int LABEL = 31;
+  int URL = 31;
   /** RegularExpression Id. */
-  int SHAPE = 32;
+  int LABEL = 32;
   /** RegularExpression Id. */
-  int FONTNAME = 33;
+  int SHAPE = 33;
   /** RegularExpression Id. */
-  int FONTCOLOR = 34;
+  int FONTNAME = 34;
   /** RegularExpression Id. */
-  int LABELFONTSIZE = 35;
+  int FONTCOLOR = 35;
   /** RegularExpression Id. */
-  int LABELFONTNAME = 36;
+  int LABELFONTSIZE = 36;
   /** RegularExpression Id. */
-  int BGCOLOR = 37;
+  int LABELFONTNAME = 37;
   /** RegularExpression Id. */
-  int PENCOLOR = 38;
+  int BGCOLOR = 38;
   /** RegularExpression Id. */
-  int DIR = 39;
+  int PENCOLOR = 39;
   /** RegularExpression Id. */
-  int TOOLTIP = 40;
+  int DIR = 40;
   /** RegularExpression Id. */
-  int DIGITS = 41;
+  int TOOLTIP = 41;
   /** RegularExpression Id. */
-  int DIGIT = 42;
+  int DIGITS = 42;
   /** RegularExpression Id. */
-  int LETTER = 43;
+  int DIGIT = 43;
   /** RegularExpression Id. */
-  int ESCAPED_QUOTES = 44;
+  int LETTER = 44;
   /** RegularExpression Id. */
-  int ID = 45;
+  int ESCAPED_QUOTES = 45;
+  /** RegularExpression Id. */
+  int ID = 46;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -118,6 +120,7 @@ public interface DotGrammarConstants {
     "<NODE>",
     "<EDGE>",
     "<DIGRAPH>",
+    "<DIGRAPH_>",
     "<GRAPH>",
     "<SUBGRAPH>",
     "<STRICT>",

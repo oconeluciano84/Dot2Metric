@@ -1,4 +1,5 @@
 package testDot2Metric;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,6 +15,19 @@ public class TestDot2Metric extends TestCase {
 	@Test
 	public void testMain() {
 		System.out.println("Test method --> main() ");
+		
+		try {
+			String[] args= new String[2];
+			args[0]="11";
+			args[1]="113";
+			dot2metric.dot2metric.loadConfig(args);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		File config = new File("config_path.dat");
+		assertTrue(config.exists());
 	}
 	@Test
 	public void testLoadText() {

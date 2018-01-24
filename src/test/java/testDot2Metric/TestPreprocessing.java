@@ -1,7 +1,9 @@
 package testDot2Metric;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -16,6 +18,7 @@ public class TestPreprocessing extends TestCase {
 	private static Preprocessing preproc;
 	private static String path_input;
 	private static String path_output;
+	private Scanner read;
 	
 
 	@BeforeClass
@@ -52,22 +55,38 @@ public class TestPreprocessing extends TestCase {
 		System.out.println("Running -- testStart()");
 		try {
 			// False perche se non trova la directory torna sempre false
-			assertFalse(preproc.start());
+//			assertFalse(preproc.start());
+			preproc.start();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		File f = new File(path_output+"/input_mod");
+		assertTrue(f.isDirectory());
 	}
 	
 	@Test(expected = Exception.class)
 	public void testFormattingLine() {
 		System.out.println("Running -- testFormattingLine()");
 		File input = new File(path_input+"/pre.dot");
-		File output = new File(path_output+"/trees.metric");
+		File output = new File(path_output+"/input_mod/"+input.getName());
+
 		
 		try {
 			preproc.formattingLine(input, output);
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			read = new Scanner(output);
+			while(read.hasNextLine()) {
+				String line = read.nextLine();
+				assertTrue(!line.contains(" "));
+				assertTrue(!line.contains("\\\\l"));
+			}
+			
+		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
