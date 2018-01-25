@@ -57,115 +57,42 @@ public interface DotGrammarConstants {
   /** RegularExpression Id. */
   int DIGRAFO = 27;
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int DIGRAFO_ = 28;
-=======
-  int STYLE = 28;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int STYLE = 29;
-=======
-  int COLOR = 29;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int COLOR = 30;
-=======
-  int FONTSIZE = 30;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int FONTSIZE = 31;
-=======
-  int FILLCOLOR = 31;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int FILLCOLOR = 32;
-=======
-  int HEIGHT = 32;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int HEIGHT = 33;
-=======
-  int WIDTH = 33;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int WIDTH = 34;
-=======
-  int URL = 34;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int URL = 35;
-=======
-  int LABEL = 35;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int LABEL = 36;
-=======
-  int SHAPE = 36;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int SHAPE = 37;
-=======
-  int FONTNAME = 37;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int FONTNAME = 38;
-=======
-  int FONTCOLOR = 38;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int FONTCOLOR = 39;
-=======
-  int LABELFONTSIZE = 39;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int LABELFONTSIZE = 40;
-=======
-  int LABELFONTNAME = 40;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int LABELFONTNAME = 41;
-=======
-  int BGCOLOR = 41;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int BGCOLOR = 42;
-=======
-  int PENCOLOR = 42;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int PENCOLOR = 43;
-=======
-  int DIR = 43;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int DIR = 44;
-=======
-  int TOOLTIP = 44;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int TOOLTIP = 45;
-=======
-  int DIGITS = 45;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
   /** RegularExpression Id. */
-<<<<<<< HEAD
   int DIGITS = 46;
   /** RegularExpression Id. */
   int DIGIT = 47;
@@ -175,15 +102,6 @@ public interface DotGrammarConstants {
   int ESCAPED_QUOTES = 49;
   /** RegularExpression Id. */
   int ID = 50;
-=======
-  int DIGIT = 46;
-  /** RegularExpression Id. */
-  int LETTER = 47;
-  /** RegularExpression Id. */
-  int ESCAPED_QUOTES = 48;
-  /** RegularExpression Id. */
-  int ID = 49;
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -218,10 +136,7 @@ public interface DotGrammarConstants {
     "<GRAFO>",
     "<SOTTOGRAFO>",
     "<DIGRAFO>",
-<<<<<<< HEAD
     "<DIGRAFO_>",
-=======
->>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
     "\"style\"",
     "\"color\"",
     "\"fontsize\"",
