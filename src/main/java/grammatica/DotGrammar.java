@@ -376,10 +376,18 @@ public class DotGrammar implements DotGrammarConstants {
       jj_la1_init_1();
    }
    private static void jj_la1_init_0() {
+<<<<<<< HEAD
       jj_la1_0 = new int[] {0xe780000,0x60000,0x60000,0x80000000,0x80000000,0x100,0x1000000,0x0,0x8800,0x60000000,0x60000000,0x100,0x100,0x60000000,0xe0000000,0xe0000000,0x100,};
+=======
+      jj_la1_0 = new int[] {0xe780000,0x60000,0x60000,0x40000000,0x40000000,0x100,0x1000000,0x0,0x8800,0xb0000000,0xb0000000,0x100,0x100,0xb0000000,0x70000000,0x70000000,0x100,};
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
    }
    private static void jj_la1_init_1() {
+<<<<<<< HEAD
       jj_la1_1 = new int[] {0x0,0x0,0x0,0x360,0x360,0x0,0x0,0x40000,0x0,0x309f,0x308f,0x0,0x0,0x309f,0x1050,0x1050,0x0,};
+=======
+      jj_la1_1 = new int[] {0x0,0x0,0x0,0x1b0,0x1b0,0x0,0x0,0x20000,0x0,0x184f,0x1847,0x0,0x0,0x184f,0x828,0x828,0x0,};
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
    }
 
   /** Constructor with InputStream. */
@@ -496,7 +504,11 @@ public class DotGrammar implements DotGrammarConstants {
   /** Generate ParseException. */
   public ParseException generateParseException() {
     jj_expentries.clear();
+<<<<<<< HEAD
     boolean[] la1tokens = new boolean[51];
+=======
+    boolean[] la1tokens = new boolean[50];
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
     if (jj_kind >= 0) {
       la1tokens[jj_kind] = true;
       jj_kind = -1;
@@ -513,7 +525,11 @@ public class DotGrammar implements DotGrammarConstants {
         }
       }
     }
+<<<<<<< HEAD
     for (int i = 0; i < 51; i++) {
+=======
+    for (int i = 0; i < 50; i++) {
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       if (la1tokens[i]) {
         jj_expentry = new int[1];
         jj_expentry[0] = i;

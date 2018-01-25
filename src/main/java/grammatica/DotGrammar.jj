@@ -57,7 +57,10 @@ TOKEN : /*PAROLE_CHIAVI*/
 | < GRAFO : ("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") >
 | < SOTTOGRAFO : ("s"|"S")("o"|"O")("t"|"T")("t"|"T")("o"|"O")("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") >
 | < DIGRAFO : ("d"|"D")("i"|"I")("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") >
+<<<<<<< HEAD
 | < DIGRAFO_ : ("d"|"D")("i"|"I")("g"|"G")("r"|"R")("a"|"A")("f"|"F")("o"|"O") ("_")>
+=======
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
 }
 
 TOKEN : /*ATTRIBUTI*/

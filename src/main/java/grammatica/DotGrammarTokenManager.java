@@ -15,12 +15,16 @@ private final int jjStopStringLiteralDfa_0(int pos, long active0)
    switch (pos)
    {
       case 0:
+<<<<<<< HEAD
          if ((active0 & 0x2020000000L) != 0L)
          {
             jjmatchedKind = 50;
             return 67;
          }
+=======
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          if ((active0 & 0x40L) != 0L)
+<<<<<<< HEAD
             return 88;
          if ((active0 & 0x10000L) != 0L)
             return 89;
@@ -36,118 +40,267 @@ private final int jjStopStringLiteralDfa_0(int pos, long active0)
          }
          if ((active0 & 0x8000L) != 0L)
             return 90;
-         return -1;
-      case 1:
-         if ((active0 & 0x2fffc0000000L) != 0L)
+=======
+            return 81;
+         if ((active0 & 0x1010000000L) != 0L)
          {
-            jjmatchedKind = 50;
-            jjmatchedPos = 1;
+            jjmatchedKind = 49;
+            return 60;
+         }
+         if ((active0 & 0x10000L) != 0L)
+            return 82;
+         if ((active0 & 0x80000000000L) != 0L)
+         {
+            jjmatchedKind = 49;
+            return 31;
+         }
+         if ((active0 & 0x17efe0000000L) != 0L)
+         {
+            jjmatchedKind = 49;
             return 22;
          }
-         if ((active0 & 0x100000000000L) != 0L)
+         if ((active0 & 0x8000L) != 0L)
+            return 83;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+         return -1;
+      case 1:
+<<<<<<< HEAD
+         if ((active0 & 0x2fffc0000000L) != 0L)
+=======
+         if ((active0 & 0x10000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+            jjmatchedPos = 1;
+<<<<<<< HEAD
+            return 22;
+=======
+            return 68;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+         }
+<<<<<<< HEAD
+         if ((active0 & 0x100000000000L) != 0L)
+=======
+         if ((active0 & 0x80000000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+         {
+<<<<<<< HEAD
+            jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 1;
             return 32;
          }
+<<<<<<< HEAD
          if ((active0 & 0x20000000L) != 0L)
+=======
+         if ((active0 & 0x17ffe0000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 1;
+<<<<<<< HEAD
             return 75;
+=======
+            return 22;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          }
          return -1;
       case 2:
+<<<<<<< HEAD
          if ((active0 & 0x100800000000L) != 0L)
             return 22;
          if ((active0 & 0x2ff7e0000000L) != 0L)
+=======
+         if ((active0 & 0x80400000000L) != 0L)
+            return 22;
+         if ((active0 & 0x17fbf0000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 2;
             return 22;
          }
          return -1;
       case 3:
+<<<<<<< HEAD
          if ((active0 & 0x2ff7e0000000L) != 0L)
+=======
+         if ((active0 & 0x17fbf0000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 3;
             return 22;
          }
          return -1;
       case 4:
+<<<<<<< HEAD
          if ((active0 & 0x2cc380000000L) != 0L)
+=======
+         if ((active0 & 0x19a30000000L) != 0L)
+            return 22;
+         if ((active0 & 0x1661c0000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
             if (jjmatchedPos != 4)
             {
+<<<<<<< HEAD
                jjmatchedKind = 50;
+=======
+               jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                jjmatchedPos = 4;
             }
             return 22;
          }
+<<<<<<< HEAD
          if ((active0 & 0x33460000000L) != 0L)
             return 22;
+=======
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          return -1;
       case 5:
+<<<<<<< HEAD
          if ((active0 & 0x200000000L) != 0L)
             return 22;
          if ((active0 & 0x2fc180000000L) != 0L)
+=======
+         if ((active0 & 0x100000000L) != 0L)
+            return 22;
+         if ((active0 & 0x17e0c0000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 5;
             return 22;
          }
          return -1;
       case 6:
+<<<<<<< HEAD
          if ((active0 & 0x240000000000L) != 0L)
             return 22;
          if ((active0 & 0xbc180000000L) != 0L)
+=======
+         if ((active0 & 0x120000000000L) != 0L)
+            return 22;
+         if ((active0 & 0x5e0c0000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 6;
             return 22;
          }
          return -1;
       case 7:
+<<<<<<< HEAD
          if ((active0 & 0x84080000000L) != 0L)
             return 22;
          if ((active0 & 0x38100000000L) != 0L)
+=======
+         if ((active0 & 0x42040000000L) != 0L)
+            return 22;
+         if ((active0 & 0x1c080000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 7;
             return 22;
          }
          return -1;
       case 8:
+<<<<<<< HEAD
          if ((active0 & 0x8100000000L) != 0L)
             return 22;
          if ((active0 & 0x30000000000L) != 0L)
+=======
+         if ((active0 & 0x18000000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 8;
             return 22;
          }
+         if ((active0 & 0x4080000000L) != 0L)
+            return 22;
          return -1;
       case 9:
+<<<<<<< HEAD
          if ((active0 & 0x30000000000L) != 0L)
+=======
+         if ((active0 & 0x18000000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 9;
             return 22;
          }
          return -1;
       case 10:
+<<<<<<< HEAD
          if ((active0 & 0x30000000000L) != 0L)
+=======
+         if ((active0 & 0x18000000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 10;
             return 22;
          }
          return -1;
       case 11:
+<<<<<<< HEAD
          if ((active0 & 0x30000000000L) != 0L)
+=======
+         if ((active0 & 0x18000000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 50;
+=======
+            jjmatchedKind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 11;
             return 22;
          }
@@ -171,7 +324,11 @@ private int jjMoveStringLiteralDfa0_0()
    switch(curChar)
    {
       case 34:
+<<<<<<< HEAD
          return jjStartNfaWithStates_0(0, 16, 89);
+=======
+         return jjStartNfaWithStates_0(0, 16, 82);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 44:
          return jjStopAtPos(0, 8);
       case 45:
@@ -185,14 +342,23 @@ private int jjMoveStringLiteralDfa0_0()
       case 61:
          return jjStopAtPos(0, 7);
       case 62:
+<<<<<<< HEAD
          return jjStartNfaWithStates_0(0, 6, 88);
+=======
+         return jjStartNfaWithStates_0(0, 6, 81);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 85:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa1_0(0x800000000L);
+=======
+         return jjMoveStringLiteralDfa1_0(0x400000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 91:
          return jjStopAtPos(0, 11);
       case 93:
          return jjStopAtPos(0, 12);
       case 98:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa1_0(0x40000000000L);
       case 99:
          return jjMoveStringLiteralDfa1_0(0x40000000L);
@@ -212,6 +378,27 @@ private int jjMoveStringLiteralDfa0_0()
          return jjMoveStringLiteralDfa1_0(0x200000000000L);
       case 119:
          return jjMoveStringLiteralDfa1_0(0x400000000L);
+=======
+         return jjMoveStringLiteralDfa1_0(0x20000000000L);
+      case 99:
+         return jjMoveStringLiteralDfa1_0(0x20000000L);
+      case 100:
+         return jjMoveStringLiteralDfa1_0(0x80000000000L);
+      case 102:
+         return jjMoveStringLiteralDfa1_0(0x60c0000000L);
+      case 104:
+         return jjMoveStringLiteralDfa1_0(0x100000000L);
+      case 108:
+         return jjMoveStringLiteralDfa1_0(0x18800000000L);
+      case 112:
+         return jjMoveStringLiteralDfa1_0(0x40000000000L);
+      case 115:
+         return jjMoveStringLiteralDfa1_0(0x1010000000L);
+      case 116:
+         return jjMoveStringLiteralDfa1_0(0x100000000000L);
+      case 119:
+         return jjMoveStringLiteralDfa1_0(0x200000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 123:
          return jjStopAtPos(0, 13);
       case 125:
@@ -234,21 +421,53 @@ private int jjMoveStringLiteralDfa1_0(long active0)
             return jjStopAtPos(1, 15);
          break;
       case 82:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x800000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x400000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 97:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x31000000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x18800000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 101:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x80200000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x40100000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 103:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x40000000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x20000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 104:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x2000000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x1000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 105:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x100500000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x80280000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 111:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x20c0c0000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x106060000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 116:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa2_0(active0, 0x20000000L);
+=======
+         return jjMoveStringLiteralDfa2_0(active0, 0x10000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -266,14 +485,28 @@ private int jjMoveStringLiteralDfa2_0(long old0, long active0)
    switch(curChar)
    {
       case 76:
+<<<<<<< HEAD
          if ((active0 & 0x800000000L) != 0L)
             return jjStartNfaWithStates_0(2, 35, 22);
+=======
+         if ((active0 & 0x400000000L) != 0L)
+            return jjStartNfaWithStates_0(2, 34, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 97:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa3_0(active0, 0x2000000000L);
+=======
+         return jjMoveStringLiteralDfa3_0(active0, 0x1000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 98:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa3_0(active0, 0x31000000000L);
+=======
+         return jjMoveStringLiteralDfa3_0(active0, 0x18800000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 99:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa3_0(active0, 0x40000000000L);
       case 100:
          return jjMoveStringLiteralDfa3_0(active0, 0x400000000L);
@@ -285,12 +518,34 @@ private int jjMoveStringLiteralDfa2_0(long old0, long active0)
          return jjMoveStringLiteralDfa3_0(active0, 0x8c080000000L);
       case 111:
          return jjMoveStringLiteralDfa3_0(active0, 0x200000000000L);
+=======
+         return jjMoveStringLiteralDfa3_0(active0, 0x20000000000L);
+      case 100:
+         return jjMoveStringLiteralDfa3_0(active0, 0x200000000L);
+      case 105:
+         return jjMoveStringLiteralDfa3_0(active0, 0x100000000L);
+      case 108:
+         return jjMoveStringLiteralDfa3_0(active0, 0xa0000000L);
+      case 110:
+         return jjMoveStringLiteralDfa3_0(active0, 0x46040000000L);
+      case 111:
+         return jjMoveStringLiteralDfa3_0(active0, 0x100000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 114:
+<<<<<<< HEAD
          if ((active0 & 0x100000000000L) != 0L)
             return jjStartNfaWithStates_0(2, 44, 22);
+=======
+         if ((active0 & 0x80000000000L) != 0L)
+            return jjStartNfaWithStates_0(2, 43, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 121:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa3_0(active0, 0x20000000L);
+=======
+         return jjMoveStringLiteralDfa3_0(active0, 0x10000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -308,10 +563,19 @@ private int jjMoveStringLiteralDfa3_0(long old0, long active0)
    switch(curChar)
    {
       case 99:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa4_0(active0, 0x80000000000L);
+=======
+         return jjMoveStringLiteralDfa4_0(active0, 0x40000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 101:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa4_0(active0, 0x31000000000L);
+=======
+         return jjMoveStringLiteralDfa4_0(active0, 0x18800000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 103:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa4_0(active0, 0x200000000L);
       case 108:
          return jjMoveStringLiteralDfa4_0(active0, 0x200120000000L);
@@ -319,8 +583,21 @@ private int jjMoveStringLiteralDfa3_0(long old0, long active0)
          return jjMoveStringLiteralDfa4_0(active0, 0x40040000000L);
       case 112:
          return jjMoveStringLiteralDfa4_0(active0, 0x2000000000L);
+=======
+         return jjMoveStringLiteralDfa4_0(active0, 0x100000000L);
+      case 108:
+         return jjMoveStringLiteralDfa4_0(active0, 0x100090000000L);
+      case 111:
+         return jjMoveStringLiteralDfa4_0(active0, 0x20020000000L);
+      case 112:
+         return jjMoveStringLiteralDfa4_0(active0, 0x1000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 116:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa4_0(active0, 0xc480000000L);
+=======
+         return jjMoveStringLiteralDfa4_0(active0, 0x6240000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -338,36 +615,86 @@ private int jjMoveStringLiteralDfa4_0(long old0, long active0)
    switch(curChar)
    {
       case 99:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa5_0(active0, 0x8100000000L);
+=======
+         return jjMoveStringLiteralDfa5_0(active0, 0x4080000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 101:
+<<<<<<< HEAD
          if ((active0 & 0x20000000L) != 0L)
             return jjStartNfaWithStates_0(4, 29, 22);
          else if ((active0 & 0x2000000000L) != 0L)
             return jjStartNfaWithStates_0(4, 37, 22);
+=======
+         if ((active0 & 0x10000000L) != 0L)
+            return jjStartNfaWithStates_0(4, 28, 22);
+         else if ((active0 & 0x1000000000L) != 0L)
+            return jjStartNfaWithStates_0(4, 36, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 104:
+<<<<<<< HEAD
          if ((active0 & 0x400000000L) != 0L)
             return jjStartNfaWithStates_0(4, 34, 22);
          return jjMoveStringLiteralDfa5_0(active0, 0x200000000L);
+=======
+         if ((active0 & 0x200000000L) != 0L)
+            return jjStartNfaWithStates_0(4, 33, 22);
+         return jjMoveStringLiteralDfa5_0(active0, 0x100000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 108:
+<<<<<<< HEAD
          if ((active0 & 0x1000000000L) != 0L)
+=======
+         if ((active0 & 0x800000000L) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          {
+<<<<<<< HEAD
             jjmatchedKind = 36;
+=======
+            jjmatchedKind = 35;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
             jjmatchedPos = 4;
          }
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa5_0(active0, 0x70000000000L);
+=======
+         return jjMoveStringLiteralDfa5_0(active0, 0x38000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 110:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa5_0(active0, 0x4000000000L);
+=======
+         return jjMoveStringLiteralDfa5_0(active0, 0x2000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 111:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa5_0(active0, 0x80000000000L);
+=======
+         return jjMoveStringLiteralDfa5_0(active0, 0x40000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 114:
+<<<<<<< HEAD
          if ((active0 & 0x40000000L) != 0L)
             return jjStartNfaWithStates_0(4, 30, 22);
+=======
+         if ((active0 & 0x20000000L) != 0L)
+            return jjStartNfaWithStates_0(4, 29, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 115:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa5_0(active0, 0x80000000L);
+=======
+         return jjMoveStringLiteralDfa5_0(active0, 0x40000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 116:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa5_0(active0, 0x200000000000L);
+=======
+         return jjMoveStringLiteralDfa5_0(active0, 0x100000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -385,18 +712,43 @@ private int jjMoveStringLiteralDfa5_0(long old0, long active0)
    switch(curChar)
    {
       case 97:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa6_0(active0, 0x4000000000L);
+=======
+         return jjMoveStringLiteralDfa6_0(active0, 0x2000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 102:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa6_0(active0, 0x30000000000L);
+=======
+         return jjMoveStringLiteralDfa6_0(active0, 0x18000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 105:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa6_0(active0, 0x200080000000L);
+=======
+         return jjMoveStringLiteralDfa6_0(active0, 0x100040000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 108:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa6_0(active0, 0x80000000000L);
+=======
+         return jjMoveStringLiteralDfa6_0(active0, 0x40000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 111:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa6_0(active0, 0x48100000000L);
+=======
+         return jjMoveStringLiteralDfa6_0(active0, 0x24080000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 116:
+<<<<<<< HEAD
          if ((active0 & 0x200000000L) != 0L)
             return jjStartNfaWithStates_0(5, 33, 22);
+=======
+         if ((active0 & 0x100000000L) != 0L)
+            return jjStartNfaWithStates_0(5, 32, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       default :
          break;
@@ -415,21 +767,47 @@ private int jjMoveStringLiteralDfa6_0(long old0, long active0)
    switch(curChar)
    {
       case 108:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa7_0(active0, 0x8100000000L);
+=======
+         return jjMoveStringLiteralDfa7_0(active0, 0x4080000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 109:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa7_0(active0, 0x4000000000L);
+=======
+         return jjMoveStringLiteralDfa7_0(active0, 0x2000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 111:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa7_0(active0, 0xb0000000000L);
+=======
+         return jjMoveStringLiteralDfa7_0(active0, 0x58000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 112:
+<<<<<<< HEAD
          if ((active0 & 0x200000000000L) != 0L)
             return jjStartNfaWithStates_0(6, 45, 22);
+=======
+         if ((active0 & 0x100000000000L) != 0L)
+            return jjStartNfaWithStates_0(6, 44, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 114:
+<<<<<<< HEAD
          if ((active0 & 0x40000000000L) != 0L)
             return jjStartNfaWithStates_0(6, 42, 22);
+=======
+         if ((active0 & 0x20000000000L) != 0L)
+            return jjStartNfaWithStates_0(6, 41, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 122:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa7_0(active0, 0x80000000L);
+=======
+         return jjMoveStringLiteralDfa7_0(active0, 0x40000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -447,18 +825,38 @@ private int jjMoveStringLiteralDfa7_0(long old0, long active0)
    switch(curChar)
    {
       case 101:
+<<<<<<< HEAD
          if ((active0 & 0x80000000L) != 0L)
             return jjStartNfaWithStates_0(7, 31, 22);
          else if ((active0 & 0x4000000000L) != 0L)
             return jjStartNfaWithStates_0(7, 38, 22);
+=======
+         if ((active0 & 0x40000000L) != 0L)
+            return jjStartNfaWithStates_0(7, 30, 22);
+         else if ((active0 & 0x2000000000L) != 0L)
+            return jjStartNfaWithStates_0(7, 37, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 110:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa8_0(active0, 0x30000000000L);
+=======
+         return jjMoveStringLiteralDfa8_0(active0, 0x18000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 111:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa8_0(active0, 0x8100000000L);
+=======
+         return jjMoveStringLiteralDfa8_0(active0, 0x4080000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       case 114:
+<<<<<<< HEAD
          if ((active0 & 0x80000000000L) != 0L)
             return jjStartNfaWithStates_0(7, 43, 22);
+=======
+         if ((active0 & 0x40000000000L) != 0L)
+            return jjStartNfaWithStates_0(7, 42, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       default :
          break;
@@ -477,13 +875,24 @@ private int jjMoveStringLiteralDfa8_0(long old0, long active0)
    switch(curChar)
    {
       case 114:
+<<<<<<< HEAD
          if ((active0 & 0x100000000L) != 0L)
             return jjStartNfaWithStates_0(8, 32, 22);
          else if ((active0 & 0x8000000000L) != 0L)
             return jjStartNfaWithStates_0(8, 39, 22);
+=======
+         if ((active0 & 0x80000000L) != 0L)
+            return jjStartNfaWithStates_0(8, 31, 22);
+         else if ((active0 & 0x4000000000L) != 0L)
+            return jjStartNfaWithStates_0(8, 38, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       case 116:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa9_0(active0, 0x30000000000L);
+=======
+         return jjMoveStringLiteralDfa9_0(active0, 0x18000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -501,9 +910,17 @@ private int jjMoveStringLiteralDfa9_0(long old0, long active0)
    switch(curChar)
    {
       case 110:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa10_0(active0, 0x20000000000L);
-      case 115:
+=======
          return jjMoveStringLiteralDfa10_0(active0, 0x10000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+      case 115:
+<<<<<<< HEAD
+         return jjMoveStringLiteralDfa10_0(active0, 0x10000000000L);
+=======
+         return jjMoveStringLiteralDfa10_0(active0, 0x8000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -521,9 +938,17 @@ private int jjMoveStringLiteralDfa10_0(long old0, long active0)
    switch(curChar)
    {
       case 97:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa11_0(active0, 0x20000000000L);
-      case 105:
+=======
          return jjMoveStringLiteralDfa11_0(active0, 0x10000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+      case 105:
+<<<<<<< HEAD
+         return jjMoveStringLiteralDfa11_0(active0, 0x10000000000L);
+=======
+         return jjMoveStringLiteralDfa11_0(active0, 0x8000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -541,9 +966,17 @@ private int jjMoveStringLiteralDfa11_0(long old0, long active0)
    switch(curChar)
    {
       case 109:
+<<<<<<< HEAD
          return jjMoveStringLiteralDfa12_0(active0, 0x20000000000L);
-      case 122:
+=======
          return jjMoveStringLiteralDfa12_0(active0, 0x10000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+      case 122:
+<<<<<<< HEAD
+         return jjMoveStringLiteralDfa12_0(active0, 0x10000000000L);
+=======
+         return jjMoveStringLiteralDfa12_0(active0, 0x8000000000L);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       default :
          break;
    }
@@ -561,10 +994,17 @@ private int jjMoveStringLiteralDfa12_0(long old0, long active0)
    switch(curChar)
    {
       case 101:
+<<<<<<< HEAD
          if ((active0 & 0x10000000000L) != 0L)
             return jjStartNfaWithStates_0(12, 40, 22);
          else if ((active0 & 0x20000000000L) != 0L)
             return jjStartNfaWithStates_0(12, 41, 22);
+=======
+         if ((active0 & 0x8000000000L) != 0L)
+            return jjStartNfaWithStates_0(12, 39, 22);
+         else if ((active0 & 0x10000000000L) != 0L)
+            return jjStartNfaWithStates_0(12, 40, 22);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          break;
       default :
          break;
@@ -585,7 +1025,11 @@ static final long[] jjbitVec0 = {
 private int jjMoveNfa_0(int startState, int curPos)
 {
    int startsAt = 0;
+<<<<<<< HEAD
    jjnewStateCnt = 88;
+=======
+   jjnewStateCnt = 81;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
    int i = 1;
    jjstateSet[0] = startState;
    int kind = 0x7fffffff;
@@ -600,21 +1044,126 @@ private int jjMoveNfa_0(int startState, int curPos)
          {
             switch(jjstateSet[--i])
             {
+<<<<<<< HEAD
                case 67:
+               case 22:
+=======
+               case 32:
                case 22:
                   if ((0x3ff000000000000L & l) == 0L)
                      break;
-                  if (kind > 50)
-                     kind = 50;
+                  if (kind > 49)
+                     kind = 49;
                   jjCheckNAdd(22);
                   break;
-               case 32:
+               case 68:
                   if ((0x3ff000000000000L & l) == 0L)
                      break;
+                  if (kind > 49)
+                     kind = 49;
+                  jjCheckNAdd(22);
+                  break;
+               case 83:
+                  if ((0x3ff000000000000L & l) != 0L)
+                     jjCheckNAddTwoStates(18, 19);
+                  else if (curChar == 46)
+                     jjCheckNAdd(17);
+                  break;
+               case 82:
+                  if ((0xfffffffaffffd9ffL & l) != 0L)
+                     jjCheckNAddStates(0, 2);
+                  else if (curChar == 34)
+                  {
+                     if (kind > 49)
+                        kind = 49;
+                  }
+                  break;
+               case 60:
+                  if ((0x3ff000000000000L & l) == 0L)
+                     break;
+                  if (kind > 49)
+                     kind = 49;
+                  jjCheckNAdd(22);
+                  break;
+               case 31:
+                  if ((0x3ff000000000000L & l) == 0L)
+                     break;
+                  if (kind > 49)
+                     kind = 49;
+                  jjCheckNAdd(22);
+                  break;
+               case 81:
+                  if ((0xfffffffeffffd9ffL & l) != 0L)
+                     jjCheckNAddTwoStates(28, 29);
+                  if (curChar == 60)
+                  {
+                     if (kind > 49)
+                        kind = 49;
+                  }
+                  break;
+               case 0:
+                  if ((0x3ff000000000000L & l) != 0L)
+                     jjCheckNAddTwoStates(18, 19);
+                  else if (curChar == 62)
+                     jjCheckNAddTwoStates(28, 29);
+                  else if (curChar == 34)
+                     jjCheckNAddStates(0, 2);
+                  else if (curChar == 46)
+                     jjCheckNAdd(17);
+                  else if (curChar == 45)
+                     jjCheckNAddTwoStates(16, 18);
+                  break;
+               case 15:
+                  if (curChar == 45)
+                     jjCheckNAddTwoStates(16, 18);
+                  break;
+               case 16:
+                  if (curChar == 46)
+                     jjCheckNAdd(17);
+                  break;
+               case 17:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+                  if ((0x3ff000000000000L & l) == 0L)
+                     break;
+<<<<<<< HEAD
                   if (kind > 50)
                      kind = 50;
                   jjCheckNAdd(22);
+=======
+                  if (kind > 49)
+                     kind = 49;
+                  jjCheckNAdd(17);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
+<<<<<<< HEAD
+               case 32:
+=======
+               case 18:
+                  if ((0x3ff000000000000L & l) != 0L)
+                     jjCheckNAddTwoStates(18, 19);
+                  break;
+               case 19:
+                  if (curChar != 46)
+                     break;
+                  if (kind > 49)
+                     kind = 49;
+                  jjCheckNAdd(20);
+                  break;
+               case 20:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+                  if ((0x3ff000000000000L & l) == 0L)
+                     break;
+<<<<<<< HEAD
+                  if (kind > 50)
+                     kind = 50;
+                  jjCheckNAdd(22);
+=======
+                  if (kind > 49)
+                     kind = 49;
+                  jjCheckNAdd(20);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+                  break;
+<<<<<<< HEAD
                case 31:
                   if ((0x3ff000000000000L & l) == 0L)
                      break;
@@ -698,6 +1247,8 @@ private int jjMoveNfa_0(int startState, int curPos)
                      kind = 50;
                   jjCheckNAdd(20);
                   break;
+=======
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                case 23:
                   if (curChar == 34)
                      jjCheckNAddStates(0, 2);
@@ -707,8 +1258,13 @@ private int jjMoveNfa_0(int startState, int curPos)
                      jjCheckNAddStates(0, 2);
                   break;
                case 26:
+<<<<<<< HEAD
                   if (curChar == 34 && kind > 50)
                      kind = 50;
+=======
+                  if (curChar == 34 && kind > 49)
+                     kind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
                case 27:
                   if (curChar == 62)
@@ -719,8 +1275,13 @@ private int jjMoveNfa_0(int startState, int curPos)
                      jjCheckNAddTwoStates(28, 29);
                   break;
                case 29:
+<<<<<<< HEAD
                   if (curChar == 60 && kind > 50)
                      kind = 50;
+=======
+                  if (curChar == 60 && kind > 49)
+                     kind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
                default : break;
             }
@@ -733,20 +1294,49 @@ private int jjMoveNfa_0(int startState, int curPos)
          {
             switch(jjstateSet[--i])
             {
+<<<<<<< HEAD
                case 67:
+=======
+               case 32:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   if ((0x7fffffe87fffffeL & l) != 0L)
                   {
+<<<<<<< HEAD
                      if (kind > 50)
                         kind = 50;
+=======
+                     if (kind > 49)
+                        kind = 49;
                      jjCheckNAdd(22);
                   }
+                  if ((0x8000000080L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 46;
+                  if ((0x8000000080L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 39;
+                  if ((0x8000000080L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 33;
+                  break;
+               case 68:
+                  if ((0x7fffffe87fffffeL & l) != 0L)
+                  {
+                     if (kind > 49)
+                        kind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+                     jjCheckNAdd(22);
+                  }
+<<<<<<< HEAD
                   if ((0x800000008000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 80;
                   else if ((0x10000000100000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 75;
                   else if ((0x20000000200000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 68;
+=======
+                  if ((0x4000000040000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 69;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
+<<<<<<< HEAD
                case 32:
                   if ((0x7fffffe87fffffeL & l) != 0L)
                   {
@@ -780,10 +1370,14 @@ private int jjMoveNfa_0(int startState, int curPos)
                      jjstateSet[jjnewStateCnt++] = 32;
                   break;
                case 89:
+=======
+               case 82:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   jjCheckNAddStates(0, 2);
                   if (curChar == 92)
                      jjstateSet[jjnewStateCnt++] = 23;
                   break;
+<<<<<<< HEAD
                case 75:
                   if ((0x7fffffe87fffffeL & l) != 0L)
                   {
@@ -793,12 +1387,50 @@ private int jjMoveNfa_0(int startState, int curPos)
                   }
                   if ((0x4000000040000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 76;
+=======
+               case 60:
+                  if ((0x7fffffe87fffffeL & l) != 0L)
+                  {
+                     if (kind > 49)
+                        kind = 49;
+                     jjCheckNAdd(22);
+                  }
+                  if ((0x800000008000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 73;
+                  else if ((0x10000000100000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 68;
+                  else if ((0x20000000200000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 61;
+                  break;
+               case 31:
+                  if ((0x7fffffe87fffffeL & l) != 0L)
+                  {
+                     if (kind > 49)
+                        kind = 49;
+                     jjCheckNAdd(22);
+                  }
+                  if ((0x20000000200L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 45;
+                  if ((0x20000000200L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 38;
+                  if ((0x20000000200L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 32;
+                  break;
+               case 81:
+               case 28:
+                  jjCheckNAddTwoStates(28, 29);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
                case 0:
                   if ((0x7fffffe87fffffeL & l) != 0L)
                   {
+<<<<<<< HEAD
                      if (kind > 50)
                         kind = 50;
+=======
+                     if (kind > 49)
+                        kind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                      jjCheckNAdd(22);
                   }
                   if ((0x8000000080000L & l) != 0L)
@@ -806,7 +1438,11 @@ private int jjMoveNfa_0(int startState, int curPos)
                   else if ((0x8000000080L & l) != 0L)
                      jjAddStates(6, 7);
                   else if ((0x1000000010L & l) != 0L)
+<<<<<<< HEAD
                      jjAddStates(8, 11);
+=======
+                     jjAddStates(8, 10);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   else if ((0x4000000040000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 9;
                   else if ((0x2000000020L & l) != 0L)
@@ -814,10 +1450,13 @@ private int jjMoveNfa_0(int startState, int curPos)
                   else if ((0x400000004000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 1;
                   break;
+<<<<<<< HEAD
                case 88:
                case 28:
                   jjCheckNAddTwoStates(28, 29);
                   break;
+=======
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                case 1:
                   if ((0x800000008000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 2;
@@ -877,15 +1516,25 @@ private int jjMoveNfa_0(int startState, int curPos)
                case 21:
                   if ((0x7fffffe87fffffeL & l) == 0L)
                      break;
+<<<<<<< HEAD
                   if (kind > 50)
                      kind = 50;
+=======
+                  if (kind > 49)
+                     kind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   jjCheckNAdd(22);
                   break;
                case 22:
                   if ((0x7fffffe87fffffeL & l) == 0L)
                      break;
+<<<<<<< HEAD
                   if (kind > 50)
                      kind = 50;
+=======
+                  if (kind > 49)
+                     kind = 49;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   jjCheckNAdd(22);
                   break;
                case 24:
@@ -897,7 +1546,11 @@ private int jjMoveNfa_0(int startState, int curPos)
                   break;
                case 30:
                   if ((0x1000000010L & l) != 0L)
+<<<<<<< HEAD
                      jjAddStates(8, 11);
+=======
+                     jjAddStates(8, 10);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
                case 33:
                   if ((0x4000000040000L & l) != 0L)
@@ -968,33 +1621,101 @@ private int jjMoveNfa_0(int startState, int curPos)
                      kind = 27;
                   break;
                case 50:
+<<<<<<< HEAD
                   if ((0x20000000200L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 51;
+=======
+                  if ((0x8000000080L & l) != 0L)
+                     jjAddStates(6, 7);
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
                case 51:
+<<<<<<< HEAD
                   if ((0x8000000080L & l) != 0L)
+=======
+                  if ((0x4000000040000L & l) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                      jjstateSet[jjnewStateCnt++] = 52;
                   break;
                case 52:
+<<<<<<< HEAD
                   if ((0x4000000040000L & l) != 0L)
+=======
+                  if ((0x200000002L & l) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                      jjstateSet[jjnewStateCnt++] = 53;
                   break;
                case 53:
+<<<<<<< HEAD
                   if ((0x200000002L & l) != 0L)
+=======
+                  if ((0x1000000010000L & l) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                      jjstateSet[jjnewStateCnt++] = 54;
                   break;
                case 54:
+<<<<<<< HEAD
                   if ((0x4000000040L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 55;
+=======
+                  if ((0x10000000100L & l) != 0L && kind > 21)
+                     kind = 21;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
                case 55:
+<<<<<<< HEAD
                   if ((0x800000008000L & l) != 0L)
+=======
+                  if ((0x4000000040000L & l) != 0L)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                      jjstateSet[jjnewStateCnt++] = 56;
                   break;
                case 56:
+<<<<<<< HEAD
                   if (curChar == 95 && kind > 28)
                      kind = 28;
+=======
+                  if ((0x200000002L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 57;
                   break;
+               case 57:
+                  if ((0x4000000040L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 58;
+                  break;
+               case 58:
+                  if ((0x800000008000L & l) != 0L && kind > 25)
+                     kind = 25;
+                  break;
+               case 59:
+                  if ((0x8000000080000L & l) != 0L)
+                     jjAddStates(3, 5);
+                  break;
+               case 61:
+                  if ((0x400000004L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 62;
+                  break;
+               case 62:
+                  if ((0x8000000080L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 63;
+                  break;
+               case 63:
+                  if ((0x4000000040000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 64;
+                  break;
+               case 64:
+                  if ((0x200000002L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 65;
+                  break;
+               case 65:
+                  if ((0x1000000010000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 66;
+                  break;
+               case 66:
+                  if ((0x10000000100L & l) != 0L && kind > 22)
+                     kind = 22;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
+                  break;
+<<<<<<< HEAD
                case 57:
                   if ((0x8000000080L & l) != 0L)
                      jjAddStates(6, 7);
@@ -1002,15 +1723,33 @@ private int jjMoveNfa_0(int startState, int curPos)
                case 58:
                   if ((0x4000000040000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 59;
+=======
+               case 67:
+                  if ((0x10000000100000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 68;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
+<<<<<<< HEAD
                case 59:
                   if ((0x200000002L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 60;
+=======
+               case 69:
+                  if ((0x20000000200L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 70;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
+<<<<<<< HEAD
                case 60:
                   if ((0x1000000010000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 61;
+=======
+               case 70:
+                  if ((0x800000008L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 71;
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   break;
+<<<<<<< HEAD
                case 61:
                   if ((0x10000000100L & l) != 0L && kind > 21)
                      kind = 21;
@@ -1072,9 +1811,13 @@ private int jjMoveNfa_0(int startState, int curPos)
                      jjstateSet[jjnewStateCnt++] = 78;
                   break;
                case 78:
+=======
+               case 71:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   if ((0x10000000100000L & l) != 0L && kind > 23)
                      kind = 23;
                   break;
+<<<<<<< HEAD
                case 79:
                   if ((0x800000008000L & l) != 0L)
                      jjstateSet[jjnewStateCnt++] = 80;
@@ -1108,6 +1851,41 @@ private int jjMoveNfa_0(int startState, int curPos)
                      jjstateSet[jjnewStateCnt++] = 87;
                   break;
                case 87:
+=======
+               case 72:
+                  if ((0x800000008000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 73;
+                  break;
+               case 73:
+                  if ((0x10000000100000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 74;
+                  break;
+               case 74:
+                  if ((0x10000000100000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 75;
+                  break;
+               case 75:
+                  if ((0x800000008000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 76;
+                  break;
+               case 76:
+                  if ((0x8000000080L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 77;
+                  break;
+               case 77:
+                  if ((0x4000000040000L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 78;
+                  break;
+               case 78:
+                  if ((0x200000002L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 79;
+                  break;
+               case 79:
+                  if ((0x4000000040L & l) != 0L)
+                     jjstateSet[jjnewStateCnt++] = 80;
+                  break;
+               case 80:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                   if ((0x800000008000L & l) != 0L && kind > 26)
                      kind = 26;
                   break;
@@ -1123,12 +1901,20 @@ private int jjMoveNfa_0(int startState, int curPos)
          {
             switch(jjstateSet[--i])
             {
+<<<<<<< HEAD
                case 89:
+=======
+               case 82:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                case 24:
                   if ((jjbitVec0[i2] & l2) != 0L)
                      jjCheckNAddStates(0, 2);
                   break;
+<<<<<<< HEAD
                case 88:
+=======
+               case 81:
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
                case 28:
                   if ((jjbitVec0[i2] & l2) != 0L)
                      jjCheckNAddTwoStates(28, 29);
@@ -1144,21 +1930,33 @@ private int jjMoveNfa_0(int startState, int curPos)
          kind = 0x7fffffff;
       }
       ++curPos;
+<<<<<<< HEAD
       if ((i = jjnewStateCnt) == (startsAt = 88 - (jjnewStateCnt = startsAt)))
+=======
+      if ((i = jjnewStateCnt) == (startsAt = 81 - (jjnewStateCnt = startsAt)))
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
          return curPos;
       try { curChar = input_stream.readChar(); }
       catch(java.io.IOException e) { return curPos; }
    }
 }
 static final int[] jjnextStates = {
+<<<<<<< HEAD
    24, 25, 26, 67, 74, 79, 58, 62, 31, 37, 44, 50, 
+=======
+   24, 25, 26, 60, 67, 72, 51, 55, 31, 37, 44, 
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
 };
 
 /** Token literal values. */
 public static final String[] jjstrLiteralImages = {
 "", null, null, null, null, "\72", "\76", "\75", "\54", "\74", "\73", "\133", 
 "\135", "\173", "\175", "\55\76", "\42", null, null, null, null, null, null, null, 
+<<<<<<< HEAD
 null, null, null, null, null, "\163\164\171\154\145", "\143\157\154\157\162", 
+=======
+null, null, null, null, "\163\164\171\154\145", "\143\157\154\157\162", 
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
 "\146\157\156\164\163\151\172\145", "\146\151\154\154\143\157\154\157\162", "\150\145\151\147\150\164", 
 "\167\151\144\164\150", "\125\122\114", "\154\141\142\145\154", "\163\150\141\160\145", 
 "\146\157\156\164\156\141\155\145", "\146\157\156\164\143\157\154\157\162", 
@@ -1171,14 +1969,23 @@ public static final String[] lexStateNames = {
    "DEFAULT",
 };
 static final long[] jjtoToken = {
+<<<<<<< HEAD
    0x43fffffffffe1L, 
+=======
+   0x21fffffffffe1L, 
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
 };
 static final long[] jjtoSkip = {
    0x1eL, 
 };
 protected SimpleCharStream input_stream;
+<<<<<<< HEAD
 private final int[] jjrounds = new int[88];
 private final int[] jjstateSet = new int[176];
+=======
+private final int[] jjrounds = new int[81];
+private final int[] jjstateSet = new int[162];
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
 protected char curChar;
 /** Constructor. */
 public DotGrammarTokenManager(SimpleCharStream stream){
@@ -1205,7 +2012,11 @@ private void ReInitRounds()
 {
    int i;
    jjround = 0x80000001;
+<<<<<<< HEAD
    for (i = 88; i-- > 0;)
+=======
+   for (i = 81; i-- > 0;)
+>>>>>>> branch 'master' of https://github.com/oconeluciano84/Dot2Metric.git
       jjrounds[i] = 0x80000000;
 }
 
