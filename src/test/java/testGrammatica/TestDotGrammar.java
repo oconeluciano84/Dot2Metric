@@ -22,8 +22,8 @@ public class TestDotGrammar {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-//		File file = new File("input/pre5.dot");
-		File file = new File("input/classcom_1_1jaeksoft_1_1pojodbc_1_1_query_ab296f2c345981790bbf8b7fe8c337d9c_cgraph.dot");
+		File file = new File("fileTest/pre5.dot");
+//		File file = new File("input/classcom_1_1jaeksoft_1_1pojodbc_1_1_query_ab296f2c345981790bbf8b7fe8c337d9c_cgraph.dot");
 		fis = new FileInputStream(file);
 //		grm = new DotGrammar(fis);
 		
